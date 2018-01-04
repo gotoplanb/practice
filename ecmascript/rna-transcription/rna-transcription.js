@@ -16,7 +16,7 @@ class Transcriptor {
           rna += 'A';
           break;
         default:
-          throw 'Invalid input DNA.';
+          throw new Error('Invalid input DNA.');
       }
     }
     return rna;
