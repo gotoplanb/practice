@@ -1,6 +1,6 @@
 def binary_search(list_of_numbers, number):
-    if len(list_of_numbers) == 0:
-        raise ValueError('Empty array')
+    # if len(list_of_numbers) == 0:
+    #     raise ValueError('Empty array')
     low = 0
     high = len(list_of_numbers) - 1
     while (low <= high):
